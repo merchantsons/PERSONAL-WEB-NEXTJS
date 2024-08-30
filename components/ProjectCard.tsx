@@ -57,11 +57,7 @@ const ProjectCard = ({ project }: Props) => {
         {/* card */}
 
         <div className={styles.projectCard}>
-          {/* banner */}
-          {project.banner && (
           
-          )}
-          {/* description */}
 
           <h3>{project.summary}</h3>
 
