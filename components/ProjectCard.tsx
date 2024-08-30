@@ -59,14 +59,7 @@ const ProjectCard = ({ project }: Props) => {
         <div className={styles.projectCard}>
           {/* banner */}
           {project.banner && (
-            <span className={styles.bannerImage}>
-              <Image
-                src={project.banner}
-                layout='fill'
-                objectFit='contain'
-                // alt={project.bannerAlt}
-              />
-            </span>
+          
           )}
           {/* description */}
 
